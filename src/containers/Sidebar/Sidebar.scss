@@ -1,0 +1,17 @@
+.app-sidebar {
+  background-color: coral;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+
+  &__item {
+    width: 70%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+  }
+}
