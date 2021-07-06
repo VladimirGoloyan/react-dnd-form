@@ -9,7 +9,7 @@ const Tree = () => {
 
   return (
     <div className="app-tree">
-      {context.state.tree !== null ? (
+      
         <div className="app-tree__text">
           {ReactDOMServer.renderToStaticMarkup(
             <div className="app-form">
@@ -42,9 +42,7 @@ const Tree = () => {
             </div>
           )}
         </div>
-      ) : (
-        <div> Tree does not exist yet</div>
-      )}
+      
     </div>
   );
 };

@@ -17,18 +17,15 @@ const Sidebar = () => {
       title: "textarea",
       attributes: ["disabled", "maxlength", "placeholder"],
     },
-    // {
-    //   title: "select",
-    //   attributes: ["disabled","size"],
-    // },
-    // {
-    //   title: "radio",
-    //   attributes: ["disabled", "value"],
-    // },
-    // {
-    //   title: "checkbox",
-    //   attributes: ["disabled", "value"],
-    // },
+    {
+      title: "select",
+    },
+    {
+      title: "radio",
+    },
+    {
+      title: "checkbox",
+    },
   ];
 
   const context = useContext(AppContext);
